@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mis servicios | allshipping</title>
+    <meta
+      name="description"
+      content="Servicios de desaduanaje, asesoría aduanera y acompañamiento logístico de allshipping en Lima, Perú."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Playfair+Display:wght@700&family=Noto+Sans+TC:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="translations.js" charset="utf-8"></script>
+    <script defer src="script.js" charset="utf-8"></script>
+  </head>
+  <body data-page="services">
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href="index.html" aria-label="allshipping">
+          <span class="brand-mark">AS</span>
+          <span class="brand-text">allshipping</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+          <span class="menu-toggle-bar"></span>
+          <span class="menu-toggle-bar"></span>
+          <span class="menu-toggle-bar"></span>
+          <span class="sr-only" data-i18n="nav.menu">Abrir menú</span>
+        </button>
+        <div class="topbar-actions">
+          <div class="site-menu" id="site-menu">
+          <nav class="main-nav" aria-label="Principal">
+            <a href="index.html" data-i18n="nav.home">Inicio</a>
+            <a href="services.html" data-i18n="nav.services">Mis servicios</a>
+            <a href="about.html" data-i18n="nav.about">Sobre nosotros</a>
+            <a href="contact.html" data-i18n="nav.contact">Contáctanos</a>
+          </nav>
+          <label class="language-switcher">
+            <span class="sr-only" data-i18n="language.label">Seleccionar idioma</span>
+            <select id="language-select" aria-label="Language selector">
+              <option value="es">ES</option>
+              <option value="en">EN</option>
+              <option value="zh-Hant">繁中</option>
+            </select>
+          </label>
+          </div>
+        </div>
+      </header>
+
+      <main class="page-main">
+        <section class="page-hero services-hero">
+          <div class="services-hero-copy">
+            <p class="eyebrow" data-i18n="services.eyebrow">Mis servicios</p>
+            <h1 data-i18n="services.title">Servicios de aduanas y transporte internacional.</h1>
+            <p data-i18n="services.description">
+              All Shipping ofrece soluciones claras para operaciones aduaneras, transporte marítimo y
+              transporte aéreo.
+            </p>
+          </div>
+          <figure class="hero-media services-media">
+            <img
+              src="assets/port-cranes.jpg"
+              alt="Grúas portuarias y terminal marítimo"
+              data-i18n-alt="services.heroAlt"
+            />
+            <figcaption class="hero-card">
+              <p class="hero-card-kicker" data-i18n="services.panelLabel">Servicios principales</p>
+              <ul class="stat-list services-stat-list">
+                <li>
+                  <strong data-i18n="services.card1Title">Aduanas</strong>
+                </li>
+                <li>
+                  <strong data-i18n="services.card2Title">Transporte marítimo</strong>
+                </li>
+                <li>
+                  <strong data-i18n="services.card3Title">Transporte aéreo</strong>
+                </li>
+              </ul>
+            </figcaption>
+          </figure>
+        </section>
+
+        <section class="service-grid">
+          <article class="service-card">
+            <h2 data-i18n="services.card1Title">Aduanas</h2>
+            <p data-i18n="services.card1Text">
+              Minimiza tiempo y costos. Como agentes de aduana hemos desarrollado una verdadera especialidad en soluciones que optimizan la parte aduanera y fiscal de tus operaciones.
+            </p>
+          </article>
+          <article class="service-card">
+            <h2 data-i18n="services.card2Title">Transporte marítimo</h2>
+            <p data-i18n="services.card2Text">
+              Ofrecemos servicios de transporte marítimo personalizados en todo el mundo. Te brindamos las mejores soluciones en función de tus necesidades.
+            </p>
+          </article>
+          <article class="service-card">
+            <h2 data-i18n="services.card3Title">Transporte aéreo</h2>
+            <p data-i18n="services.card3Text">
+              Con salidas diarias a casi todos los destinos, tu mercancía puede llegar a cualquier punto del mundo de manera urgente y con la máxima eficacia y profesionalidad.
+            </p>
+          </article>
+        </section>
+
+        <section class="service-visual">
+          <img
+            src="assets/port-cranes.jpg"
+            alt="Grúas portuarias frente al mar"
+            data-i18n-alt="services.visualAlt"
+          />
+          <div class="service-visual-copy">
+            <p class="section-label" data-i18n="services.visualLabel">Operación marítima</p>
+            <h2 data-i18n="services.visualTitle">Servicios pensados para carga internacional, aduanas y tiempos críticos.</h2>
+            <p data-i18n="services.visualText">
+              Integramos gestión aduanera y soluciones de transporte para responder con criterio técnico, rapidez operativa y atención personalizada.
+            </p>
+          </div>
+        </section>
+
+        <section class="timeline-section">
+          <div>
+            <p class="section-label" data-i18n="services.processLabel">Cómo trabajamos</p>
+            <h2 data-i18n="services.processTitle">Un proceso simple para avanzar sin perder tiempo.</h2>
+          </div>
+          <div class="timeline">
+            <div>
+              <span>01</span>
+              <h3 data-i18n="services.step1Title">Revisión inicial</h3>
+              <p data-i18n="services.step1Text">Analizo la operación, documentos y plazos críticos.</p>
+            </div>
+            <div>
+              <span>02</span>
+              <h3 data-i18n="services.step2Title">Coordinación del trámite</h3>
+              <p data-i18n="services.step2Text">Se organiza el flujo documental y el seguimiento operativo.</p>
+            </div>
+            <div>
+              <span>03</span>
+              <h3 data-i18n="services.step3Title">Acompañamiento y cierre</h3>
+              <p data-i18n="services.step3Text">Mantengo comunicación directa hasta completar el despacho.</p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-brand">
+          <span class="brand-text">allshipping</span>
+          <p data-i18n="footer.tagline">Desaduanaje, coordinación y asesoría logística en Lima, Perú.</p>
+        </div>
+        <div class="footer-links">
+          <a href="legal.html" data-i18n="footer.legal">Aviso legal</a>
+          <a href="privacy.html" data-i18n="footer.privacy">Política de privacidad</a>
+          <a href="cookies.html" data-i18n="footer.cookies">Configuración de cookies</a>
+        </div>
+        <div class="footer-links">
+          <a class="social-link" href="https://www.youtube.com/@AllShipping" target="_blank" rel="noreferrer">
+            <span class="social-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.8 31.8 0 0 0 0 12a31.8 31.8 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.8 31.8 0 0 0 24 12a31.8 31.8 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.2 3.6-6.2 3.6Z"/></svg>
+            </span>
+            <span>YouTube</span>
+          </a>
+          <a class="social-link" href="https://wa.me/51920489288" target="_blank" rel="noreferrer">
+            <span class="social-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false"><path d="M12 2a10 10 0 0 0-8.7 14.9L2 22l5.3-1.4A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1l-.7.9c-.1.1-.3.2-.4.1a6.7 6.7 0 0 1-3.3-2.9c-.1-.2 0-.3.1-.4l.3-.4.2-.4c.1-.1 0-.3 0-.4l-.7-1.7c-.1-.3-.3-.3-.5-.3h-.4c-.2 0-.4.1-.6.3-.2.3-.8.8-.8 1.9s.8 2.3.9 2.5a9.3 9.3 0 0 0 4 3.5c1.8.8 1.8.5 2.2.5.7-.1 1.4-.6 1.6-1.1.2-.6.2-1 .1-1.1-.1-.1-.3-.2-.5-.3Z"/></svg>
+            </span>
+            <span>WhatsApp</span>
+          </a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
