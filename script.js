@@ -6,7 +6,7 @@ const pageTitles = {
     "zh-Hant": "allshipping | 秘魯利馬報關服務"
   },
   services: {
-    es: "Mis servicios | allshipping",
+    es: "Servicios | allshipping",
     en: "Services | allshipping",
     "zh-Hant": "我的服務 | allshipping"
   },

@@ -2,7 +2,7 @@ window.TRANSLATIONS = {
   es: {
     "language.label": "Seleccionar idioma",
     "nav.home": "Inicio",
-    "nav.services": "Mis servicios",
+    "nav.services": "Servicios",
     "nav.about": "Sobre nosotros",
     "nav.contact": "Contáctanos",
     "nav.menu": "Abrir menú",
@@ -42,7 +42,7 @@ window.TRANSLATIONS = {
     "home.galleryLabel": "Entorno operativo",
     "home.galleryTitle": "Puerto, contenedores y coordinación real de carga.",
     "home.galleryText": "La web ahora incorpora una línea visual más alineada con operaciones marítimas, comercio exterior y soporte documental.",
-    "services.eyebrow": "Mis servicios",
+    "services.eyebrow": "Servicios",
     "services.title": "Servicios de aduanas y transporte internacional.",
     "services.description":
       "All Shipping ofrece soluciones claras para operaciones aduaneras, transporte marítimo y transporte aéreo.",
